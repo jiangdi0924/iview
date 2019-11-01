@@ -49,7 +49,7 @@
             },
             itemStyle () {
                 return this.hasParentSubmenu && this.mode !== 'horizontal' ? {
-                    paddingLeft: 43 + (this.parentSubmenuNum - 1) * 24 + 'px'
+                    paddingLeft: 20 + (this.parentSubmenuNum - 1) * 24 + 'px'
                 } : {};
             }
         },
